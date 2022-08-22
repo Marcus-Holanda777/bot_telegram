@@ -6,17 +6,10 @@ import os
 from threading import Thread
 from collections import deque
 
+
+# Token do telegram obtida na criação do bot
 CHAVE = os.environ['CHAVE_TEL']
 
-'''
-   TAREFAS
-      001 - COMO VERIFICAR SE A ROTINA AINDA ESTA RODANDO ?   - OK
-      002 - CRIAR UM LIMITE DE 5 ROTINAS EM CACHE             - OK
-      003 - MENU DE TAREFAS EM EXECUCAO                       - OK
-      004 - ACRESCENTAR MAIS ROTINAS
-      005 - ORGANIZAR AS ROTINAS PARA NAO ENTRAR EM CONFLITO
-      006 - INFORMAR QUE A TAREFA FOI FINALIZADA              - OK
-'''
 
 class BotTelegran:
     def __init__(self, token) -> None:
