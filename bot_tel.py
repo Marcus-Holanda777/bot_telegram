@@ -7,7 +7,7 @@ from threading import Thread
 from collections import deque
 
 
-# Token do telegram obtida na criação do bot
+# Token do telegram obtido na criação do bot
 CHAVE = os.environ['CHAVE_TEL']
 
 
