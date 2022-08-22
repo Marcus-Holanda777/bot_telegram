@@ -11,7 +11,7 @@ from collections import deque
 CHAVE = os.environ['CHAVE_TEL']
 
 
-class BotTelegran:
+class BotTelegram:
     def __init__(self, token) -> None:
         self.token = token
         self.urlbase = f'https://api.telegram.org/bot{self.token}/'
@@ -175,5 +175,5 @@ class BotTelegran:
 
 
 if __name__ == '__main__':
-    bot = BotTelegran(CHAVE)
+    bot = BotTelegram(CHAVE)
     bot.rodar()
